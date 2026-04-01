@@ -10,13 +10,11 @@ const withNextra = nextra({
   defaultShowCopyCode: true,
 });
 
-// const isProduction = process.env.NODE_ENV === "production";
-// const repoName = "numerical-computing";
 
 export default withNextra({
   output: "export",
-  basePath: "/numerical-computing",
-  assetPrefix: '/numerical-computing/', 
+  // basePath: "/numerical-computing",
+  // assetPrefix: '/numerical-computing/', 
   images: {
     unoptimized: true,
   },
