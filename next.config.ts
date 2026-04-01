@@ -16,6 +16,7 @@ const withNextra = nextra({
 export default withNextra({
   output: "export",
   basePath: "/numerical-computing",
+  assetPrefix: '/numerical-computing/', 
   images: {
     unoptimized: true,
   },
