@@ -10,12 +10,12 @@ const withNextra = nextra({
   defaultShowCopyCode: true,
 });
 
-const isProduction = process.env.NODE_ENV === "production";
-const repoName = "numerical-computing";
+// const isProduction = process.env.NODE_ENV === "production";
+// const repoName = "numerical-computing";
 
 export default withNextra({
   output: "export",
-  // basePath: isProduction ? `/${repoName}` : "",
+  basePath: "/numerical-computing",
   images: {
     unoptimized: true,
   },
